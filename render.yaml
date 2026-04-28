@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: vishing-detector-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 8001

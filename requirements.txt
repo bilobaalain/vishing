@@ -1,0 +1,13 @@
+# Core
+fastapi==0.110.1
+uvicorn==0.25.0
+python-dotenv>=1.0.1
+python-multipart>=0.0.9
+pydantic>=2.6.4
+numpy>=1.26.0
+
+# ML - TensorFlow Lite
+tensorflow>=2.16.0
+
+# Speech-to-Text - Whisper local
+faster-whisper>=1.0.0

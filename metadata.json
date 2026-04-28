@@ -1,0 +1,21 @@
+{
+  "model_name": "Dense_TF_Fusion_Pruned",
+  "label_map": {
+    "0": "normal",
+    "1": "scam"
+  },
+  "threshold": 0.5200000000000002,
+  "input_dim": 2775,
+  "num_numeric_features": 107,
+  "num_text_features": 2668,
+  "text_column": "transcript",
+  "group_column": "parent_id",
+  "target_column": "label",
+  "removed_numeric_features": [
+    "mfcc_delta_10_std",
+    "spectral_bandwidth_mean",
+    "spectral_contrast_7_std",
+    "spectral_rolloff_mean",
+    "zcr_std"
+  ]
+}
